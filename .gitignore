@@ -3,3 +3,7 @@
 /.classpath
 /.project
 /*.jar
+
+.gradle
+build/
+!gradle-wrapper.jar

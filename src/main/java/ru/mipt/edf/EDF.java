@@ -21,20 +21,11 @@
 
 package ru.mipt.edf;
 
-import java.io.Closeable;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import javax.swing.*;
+import java.io.*;
 import java.text.MessageFormat;
 import java.util.List;
 import java.util.Scanner;
-
-import javax.swing.JFileChooser;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 
 public class EDF
 {
